@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Desafio 1 encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400&display=swap" rel="stylesheet">
+    <header>
+      <h1>¡Bienvenidos/as al encriptador!</h1>
+    </header>
+    <div class="caja-ingresar">
+      <label for="palabraingresada">Ingresá la palabra</label>
+      <input type="text" id="palabraingresada" name="palabraingresada" placeholder="..." autofocus required >
+      <button class="btn-encripta" onclick="onClick()">Encriptá!</button>
+      <button class="btn-desencripta" onclick="desencriptar()">Desencriptá!</button>
+    </div>
+
+    <div class="caja-respuesta">
+      <p class="fijo-respuesta">La palabra ingresada es: </p>
+      <p class="respuesta-ingresada">... </p>
+    </div>
+
+    <div class="caja-respuesta">
+      <p class="fijo-respuesta">La respuesta es: </p>
+      <p class="respuesta-codificada">... </p>
+    </div>
+
+    <!-- <button onclick="resetPalabra()">De nuevo!</button> -->
+    <footer>
+      <p class="footer">Página realizada por <b>Javier Herzkovich</b></p>
+      <br/>
+      <a href="https://github.com/javierdash/"><img src="logos/github-logo.png" alt="logo-git"></a>
+      <a href="https://www.linkedin.com/in/javierherzkovich/"><img src="logos/linkedin-logo.png" alt="logo-likedin"></a>  
+    </footer>
+    <script src="./javascript1.js"></script>
+  </body>
+</html>

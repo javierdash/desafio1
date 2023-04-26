@@ -1,0 +1,58 @@
+body{
+  font-family: 'Spectral', serif;
+  font-weight: bold;
+  background-color:blanchedalmond;
+  width: 600px;
+  height: 500px;
+  border: 1px rgb(165, 182, 151) solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  padding: 30px;
+  padding-left: 85px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.caja-ingresar{
+  padding: 30px;
+  padding-left: 50px;
+}
+
+.caja-respuesta{
+  padding: 15px;
+  border: 1px solid black;
+  display:inline-block;
+  margin-left: 70px;
+  margin-right: auto;
+}
+
+.fijo-respuesta, .palabra-respuesta{
+  display:inline-block;
+}
+
+img {
+  height: 50px;
+}
+
+.footer{
+  padding-top: 150px;
+}
+
+.btn-encripta, .btn-desencripta{
+  border-radius: 5px;
+  height: 40px;
+  width: 90px;
+  background-color:gold;
+  font-weight: bold;
+  border: 2px solid grey;
+  cursor:pointer; 
+}
+
+.btn-encripta:hover, .btn-desencripta:hover{
+  background-color: orange;
+  color: grey;
+  transition:0.5s;
+}
